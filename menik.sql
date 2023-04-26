@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 26, 2023 at 04:50 PM
+-- Generation Time: Apr 26, 2023 at 06:19 PM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 8.0.12
 
@@ -46,7 +46,21 @@ INSERT INTO `uporabniki` (`id`, `ime`, `priimek`, `gmail`, `telefon`) VALUES
 (4, 'Denis', 'Benis', 'benis,denis@gmail.com', '124 467 3'),
 (5, 'Alojz', 'Bregar', 'alojz.bregark@gmail.com', '124 467 3'),
 (6, 'Luka', 'Novak', 'lukanovak123@gmail.com', '124 467 3'),
-(7, 'Tinkara', 'Kovač', 'tinkaraak@gmail.com', '124 467 3');
+(7, 'Tinkara', 'Kovač', 'tinkaraak@gmail.com', '124 467 3'),
+(8, 'Anton', 'Podbevšek', 'antonpodbevsek@siol.net', '253564747'),
+(9, 'Bina', 'Kobila', 'binakobila@gmail.com', '456346363'),
+(10, 'Monika', 'Čelesnik', 'monikac123@gmail.com', '134235254'),
+(11, 'Lojze', 'Gašperšič', 'gaspersic555@gmail.com', '123456789'),
+(12, 'Denisa', 'Poje', 'pojedenisa@siol.net', '123675424'),
+(13, 'Denis', 'Čelesnik', 'denis.celesnik@gmail.com', '123456785'),
+(14, 'Anja', 'Cvetnik', '', '165278557'),
+(15, 'Ina', 'Cvetnik', 'inacvetnik@siol.net', '453456627'),
+(16, 'Ana', 'Bojec', 'ancikaboj@gmail.com', '345678934'),
+(17, 'Klemen', 'Novak', 'klemennovak@gmail.com', '456346363'),
+(18, 'Antea', 'Čirnik', '', '153656858'),
+(19, 'Anton', 'Petrič', 'antonpetric<@gmail.com', '124252262'),
+(20, 'Bina', 'Cvetnik', 'binacvetnik@gmail.com', '345678934'),
+(21, 'Mia', 'Podbevšek', 'miapodbevsek@siol.net', '');
 
 --
 -- Indexes for dumped tables
@@ -66,7 +80,7 @@ ALTER TABLE `uporabniki`
 -- AUTO_INCREMENT for table `uporabniki`
 --
 ALTER TABLE `uporabniki`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
